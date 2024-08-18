@@ -3,7 +3,7 @@ import StatusBar from './StatusBar';
 import NavigationBar from './NavigationBar';
 import Header from './Header';
 import MainContent from './HomeMain';
-
+import './home.css'
 function Home() {
   return (
     <div style={{ width: '100%', height: '100%', background: 'white', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -11,8 +11,8 @@ function Home() {
       <Header />
       <MainContent />
       <NavigationBar />
-    </div>
-  );
+  </div>
+  )
 }
 
 export default Home;
