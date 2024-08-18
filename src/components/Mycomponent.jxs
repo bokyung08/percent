@@ -1,0 +1,15 @@
+import React from 'react';
+import styles from '../styles/styles'; // 상대 경로를 통해 styles.js를 가져옵니다.
+
+const MyComponent = () => {
+  return (
+    <div>
+      <h1 style={styles.heading1}>Heading 1</h1>
+      <h2 style={styles.heading2}>docent_ai.com</h2>
+      <h3 style={styles.heading3}>PERCENT</h3>
+    </div>
+  );
+};
+
+export default MyComponent;
+
