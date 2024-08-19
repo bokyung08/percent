@@ -1,16 +1,20 @@
 import React from 'react';
+import styles from './Home.module.css';
 
 function Header() {
   return (
-    <div class="screen">
-    <div class="overlap-wrapper">
-        <div class="overlap">
-            <div class="element-default-white">
-                <div class="battery">
-                    <div class="overlap-group"><div class="box"></div></div>
-                  
+    <div className={styles.screen}>
+        screen
+    <div className={styles.wrapper}>
+        wrapper
+        <div className={styles.overlap}>
+            overlap
+            <div className={styles.white}>
+                white
+                <div className={styles.battery}>
+                    <div className={styles.group}><div className={styles.box}></div></div>
                 </div>
-                <div class="wi-fi"></div>
+                <div className={styles.wifi}></div>
                 <div class="cellular-connection">
                     <div class="div"></div>
                     <div class="box-2"></div>

@@ -1,11 +1,11 @@
 import React from 'react';
-import Home from './components/home';
+import Bgnd from './jaehyung/Bgnd';
 
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <>
+      <Bgnd/>
+    </>
   );
 }
 
