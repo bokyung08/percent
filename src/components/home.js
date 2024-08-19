@@ -1,18 +1,28 @@
 import React from 'react';
+import styled from './home.module.css'; // styled-components 임포트
 import StatusBar from './StatusBar';
 import NavigationBar from './NavigationBar';
 import Header from './Header';
 import MainContent from './HomeMain';
-import './home.css'
+
+const Container = styled.div`
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
 function Home() {
   return (
-    <div style={{ width: '100%', height: '100%', background: 'white', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <Container>
       <StatusBar />
       <Header />
       <MainContent />
       <NavigationBar />
-  </div>
-  )
+    </Container>
+  );
 }
 
 export default Home;

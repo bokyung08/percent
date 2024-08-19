@@ -1,10 +1,12 @@
 import React from 'react';
-import gochImage from '; 
+import styles from './home.module.css'; // 일반 CSS 파일 임포트
+
 function MainContent() {
   return (
-    <div style={{ width: 393, height: 683, background: '#FFEDEC', marginTop: 10 }}>
-      <div style={{ textAlign: 'center', color: '#340034', fontSize: 40, fontFamily: 'Abhaya Libre ExtraBold', fontWeight: '800', marginBottom: 20 }}>PERCENT</div>
-      <img src='햣../assets/images/goch.png'alt="Goch" />
+    <div>
+    <div class="rectangle-2"></div>
+    <img class="monarisa" src="./assests/images/goch.png" />
+    <div class="text-wrapper-2">PERCENT</div>
     </div>
   );
 }
