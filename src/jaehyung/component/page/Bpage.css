@@ -1,0 +1,25 @@
+.text{
+    color: #000;
+    text-align: center;
+    padding-top: 110px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.371px;
+}
+
+/* Bpage.css */
+@import 'animate.css';
+
+.inner-text {
+  text-align: center;
+  padding-bottom: 50px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.371px;
+  animation: slideInLeft 1s ease-in-out;
+}

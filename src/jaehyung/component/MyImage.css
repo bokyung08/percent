@@ -1,0 +1,15 @@
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #FFEDEC;
+}
+.imagesw{
+    display: flex;
+    margin: 10px;
+    width: 150px;
+    height: 302px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #FFEDEC;
+}

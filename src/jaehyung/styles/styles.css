@@ -1,0 +1,63 @@
+.old{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.background{
+    min-width: 394px;
+    max-width: 394px;
+    height: 100vh;
+    flex-shrink: 0;
+    background: #FFEDEC;
+}
+
+.percent{
+    padding-top: 57px;
+    padding-left: 119px;
+    padding-right: 115px;
+    color: #350034;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Abhaya Libre ExtraBold";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.371px;
+}
+
+.docent-select{
+    display: flex;
+    width: 393px;
+    height: 58px;
+    padding-top: 43px;
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.371px;
+}
+
+.img-andy{
+    width: 137px;
+    padding-left: 33px;
+    height: 121px;
+    flex-shrink: 0;
+    border-radius: 1px;
+    background: url('https://www.dropbox.com/scl/fi/ky8uvl2i2aow00ca2vmum/andy.png?rlkey=455kayi36kg8er3npssoo4jen&st=wscst1mx&dl=0') lightgray 0px 0px / 100% 111.111% no-repeat;
+}
+
+.img-goch{
+    width: 97px;
+    height: 108px;
+    flex-shrink: 0;
+    border-radius: 1px;
+    background: url('https://www.dropbox.com/scl/fi/x5nkezwf1i27jr1c22ofz/goch.png?rlkey=ky28texdgptkeed60nbqtput2&st=epqoxdpe&dl=0') lightgray 0px 0px / 100% 111.111% no-repeat;
+}
